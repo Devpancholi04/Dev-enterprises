@@ -1,0 +1,42 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(91,144,206,1) 39%);
+} */
+
+.top{
+    height: 30px;
+    width: 100%;
+    background-color: #0295c2;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .logo a img{
+    height: 90px;
+    padding: 2px;
+    margin-left: 5px;
+} */
+
+.top .redirect a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.top .redirect a p{
+    margin-left: 500px;
+    margin-top: -5px;
+}
+
+.top .redirect a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
