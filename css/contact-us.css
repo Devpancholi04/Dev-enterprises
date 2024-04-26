@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back{
+    background-image: url('/IMG/cover/WATER-DROP.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 707px;
+}
+
+.heading h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    font-size: 3.5em;
+    padding-bottom: 15px;
+}
+
+.head{
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.details{
+    width: 570px;
+    height: 210px;
+    margin-left: 200px;
+}
+
+.details a{
+    text-decoration: none;
+    color: Black;
+}
+
+#icons{
+    margin-left: 90px;
+    display: flex;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight:bolder;
+    color: black;
+}
+
+
+#details{
+    margin-left: 120px;
+    display: flex;
+    margin-top: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;   
+}
+
+#num{
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: -15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.left{
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    margin-left: 900px;
+    position: relative;
+    top: -210px;
+    border-radius: 25px;
+}
+
+.left form h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left form input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+}
+
+.left form textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+}
+
+@media only screen and (min-device-width:350px) and (max-device-width:590px){
+    .back{
+        background-image: url('/IMG/cover/WATER-DROP.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .heading h1{
+        font-size: 2.5em;
+        padding-top: 50PX;
+    }
+
+    .head{
+        margin-left: 100px;
+        padding-left: 10px;
+        margin-top: 30PX;
+        font-size: 27px;
+    }
+
+    .details{
+        width: 100%;
+        height: 500px;
+        margin-left: -100px;
+    }
+
+    #icons{
+        margin-left: 115px;
+    }
+
+    #details, #num{
+        margin-left: 126px;
+    }
+
+    .left{
+        width: 95%;
+        margin-left: 10px;
+        top: -70px;
+    }
+
+    .left form textarea{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-device-width:592px) and (max-device-width:800px){
+    .back{
+        width: 185%;
+        background-size: cover;
+        height: 700px;
+    }
+
+    .head{
+        margin-left: -15px;       
+    }
+
+    .details{
+        width: 50%;
+        height: 500px;
+        margin-left: 50px;
+    }
+
+    #icons{
+        margin-left: 30px;
+    }
+
+    #details, #num{
+        margin-left: 60px;
+    }
+
+    .left{
+        width: 28%;
+        top: -480px;
+        margin-left: 800px;
+    }
+
+
+}
